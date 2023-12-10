@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/main.js" defer></script>
+    <title>Country Game</title>
+</head>
+
+<body>
+<div class="container">
+    <header class="page-header">
+        <h1 class="page-title">Country Game</h1>
+        <nav>
+            <ul class="flex-wrap space-evenly">
+                <li>
+                    <a  class="button button-green" href="about.html">Rules</a>
+                </li>
+                <li>
+                    <a class="button button-green" href="last.html">Quit</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-wrap">
+        <div id="pic">
+            <img class="responsive-img" src="img/nepal.jpg" alt="Globe">
+        </div>
+        <div class="boxes">
+
+            <section class="box">
+                <header>
+                    <h2>Let's learn about Nepal.</h2>
+                </header>
+                <p>The capital of <span id="country">country</span> is <span id="capital">capital</span>. </p>
+                <p>The language is <span id="lang">language</span>. </p>
+                <p>The currency used there is <span id="currency">currency</span>. </p>
+                <p>Nepal is famous for its <span id="famous">famous</span>. </p>
+
+
+
+                <ul class="flex-wrap space-evenly">
+                    <li>
+                        <a  class="button button-green">Your score is <span id="score">0</span>  points.</a>
+                    </li>
+                    <li>
+                        <a class="button button-green" href="srilanka.html">Start quiz</a>
+                    </li>
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <p>2023 | Finland</p>
+    </footer>

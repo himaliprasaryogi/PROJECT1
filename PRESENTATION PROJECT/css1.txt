@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+body {
+  margin: 0px;
+  font-family: "segoe ui";
+  color: #414141;
+}
+header{
+  height: 60px;
+  width: 100%;
+  background-color: #f5f5f5;
+  position: relative;
+ 
+}
+
+.container {
+  width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.mb-4{
+  margin-bottom: 40px;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: black;
+  padding: 15px 30px 15px 30px;
+  margin-left: -30px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 20px 14px 20px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+.text-center{
+  text-align: center;
+}
+
+.home_section{
+  background-image: url(../images/world map.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  padding: 75px 0px 40px 0px;
+}
+ 
+
